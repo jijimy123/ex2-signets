@@ -18,10 +18,12 @@
       justify-content: space-between;
       color: aliceblue;
       
-      img, .iconeAvatar {
+      img{
           margin-left: 1em;
           margin-right: 1em;
           border-radius: 50%;
+          height: 25px;
+          width: 25px;
       }
   }
 }

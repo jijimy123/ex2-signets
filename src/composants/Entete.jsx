@@ -1,4 +1,4 @@
-import avatar from "../images/avatar.png";
+import avatar from "../images/meow.png";
 import "./Entete.scss";
 
 export default function Entete() {
