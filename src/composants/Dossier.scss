@@ -1,0 +1,46 @@
+.Dossier {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+
+  .couverture {
+    position: relative;
+
+    .deplacer {
+      cursor: pointer;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: darkslateblue;
+      opacity: 0.5;
+      border-radius: 50%;
+      padding: 0.2em;
+    }
+  }
+
+  .info {
+    padding: 0.5em;
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin: 0.5em 0 0.5em 0;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+  }
+
+  button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    align-self: flex-end;
+    margin: -1em 0.5em 0.5em 0;
+  }
+}

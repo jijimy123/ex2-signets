@@ -1,0 +1,27 @@
+.Entete {
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin-top: -8px;
+  margin-left: -10px;
+  padding: 0.5em;
+
+  .logo {
+    color: aliceblue;
+    padding-left: 0.5em;
+  }
+
+  .avatar {
+      display: flex;
+      justify-content: space-between;
+      color: aliceblue;
+      
+      img, .iconeAvatar {
+          margin-left: 1em;
+          margin-right: 1em;
+          border-radius: 50%;
+      }
+  }
+}
